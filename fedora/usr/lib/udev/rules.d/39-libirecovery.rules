@@ -1,0 +1,5 @@
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="05ac", ATTR{idProduct}=="122[27]|128[0-3]", OWNER="root", GROUP="usbmuxd", MODE="0660", TAG+="uaccess"
+
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="05ac", ATTR{idProduct}=="1338", OWNER="root", GROUP="usbmuxd", MODE="0660", TAG+="uaccess"
+
+
